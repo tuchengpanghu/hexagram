@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="{{ total_width }}" height="{{ (base_height+2)*8 }}">
+  <style>
+    .black, .white {
+      font-family: "Hiragino Sans CNS";
+      font-size: 35px;
+      font-weight: bold;
+      text-anchor: middle;
+      dominant-baseline: central;
+    }
+
+    .other {
+      font-family: "Hiragino Sans GB";
+      font-size: 15px;
+      writing-mode: vertical-lr;
+      text-orientation: mixed;
+      fill: black;
+    }
+
+    .black {
+      fill: black;
+    }
+
+    .white {
+      fill: white;
+    }
+
+    rect, line {
+      stroke: black;
+    }
+
+    rect {
+      stroke-width: 1;
+    }
+
+  </style>
+  <defs>
+    <pattern id="pattern_1" patternUnits="userSpaceOnUse" x="{{ padding }}" width="{{ base_width*2 }}" height="1">
+      <line x1="0" y1="0" x2="0" y2="1" stroke-width="{{ base_width*2 }}"/>
+    </pattern>
+    <pattern id="pattern_2" patternUnits="userSpaceOnUse" x="{{ padding }}" width="{{ base_width*4 }}" height="30">
+      <line x1="0" y1="0" x2="0" y2="30" stroke-width="{{ base_width*4 }}"/>
+    </pattern>
+    <pattern id="pattern_3" patternUnits="userSpaceOnUse" x="{{ padding }}" width="{{ base_width*8 }}" height="30">
+      <line x1="0" y1="0" x2="0" y2="30" stroke-width="{{ base_width*8 }}"/>
+    </pattern>
+    <pattern id="pattern_4" patternUnits="userSpaceOnUse" x="{{ padding }}" width="{{ base_width*16 }}" height="30">
+      <line x1="0" y1="0" x2="0" y2="30" stroke-width="{{ base_width*16 }}"/>
+    </pattern>
+    <pattern id="pattern_5" patternUnits="userSpaceOnUse" x="{{ padding }}" width="{{ base_width*32 }}" height="30">
+      <line x1="0" y1="0" x2="0" y2="30" stroke-width="{{ base_width*32 }}"/>
+    </pattern>
+    <pattern id="pattern_6" patternUnits="userSpaceOnUse" x="{{ padding }}" width="{{ base_width*64 }}" height="30">
+      <line x1="0" y1="0" x2="0" y2="30" stroke-width="{{ base_width*64 }}"/>
+    </pattern>
+  </defs>
+
+  <text class="other" x="{{ padding+base_width*0.5 }}" y="{{ base_height-15-2 }}">坤</text>
+  <text class="other" x="{{ padding+base_width*1.5 }}" y="{{ base_height-15-2 }}">剝</text>
+  <text class="other" x="{{ padding+base_width*2.5 }}" y="{{ base_height-15-2 }}">比</text>
+  <text class="other" x="{{ padding+base_width*3.5 }}" y="{{ base_height-15-2 }}">觀</text>
+  <text class="other" x="{{ padding+base_width*4.5 }}" y="{{ base_height-15-2 }}">豫</text>
+  <text class="other" x="{{ padding+base_width*5.5 }}" y="{{ base_height-15-2 }}">晉</text>
+  <text class="other" x="{{ padding+base_width*6.5 }}" y="{{ base_height-15-2 }}">萃</text>
+  <text class="other" x="{{ padding+base_width*7.5 }}" y="{{ base_height-15-2 }}">否</text>
+  <text class="other" x="{{ padding+base_width*8.5 }}" y="{{ base_height-15-2 }}">謙</text>
+  <text class="other" x="{{ padding+base_width*9.5 }}" y="{{ base_height-15-2 }}">艮</text>
+  <text class="other" x="{{ padding+base_width*10.5 }}" y="{{ base_height-15-2 }}">蹇</text>
+  <text class="other" x="{{ padding+base_width*11.5 }}" y="{{ base_height-15-2 }}">漸</text>
+  <text class="other" x="{{ padding+base_width*12.5 }}" y="{{ base_height-15*2-2 }}">小過</text>
+  <text class="other" x="{{ padding+base_width*13.5 }}" y="{{ base_height-15-2 }}">旅</text>
+  <text class="other" x="{{ padding+base_width*14.5 }}" y="{{ base_height-15-2 }}">咸</text>
+  <text class="other" x="{{ padding+base_width*15.5 }}" y="{{ base_height-15-2 }}">遁</text>
+  <text class="other" x="{{ padding+base_width*16.5 }}" y="{{ base_height-15-2 }}">師</text>
+  <text class="other" x="{{ padding+base_width*17.5 }}" y="{{ base_height-15-2 }}">蒙</text>
+  <text class="other" x="{{ padding+base_width*18.5 }}" y="{{ base_height-15-2 }}">坎</text>
+  <text class="other" x="{{ padding+base_width*19.5 }}" y="{{ base_height-15-2 }}">渙</text>
+  <text class="other" x="{{ padding+base_width*20.5 }}" y="{{ base_height-15-2 }}">解</text>
+  <text class="other" x="{{ padding+base_width*21.5 }}" y="{{ base_height-15*2-2 }}">未濟</text>
+  <text class="other" x="{{ padding+base_width*22.5 }}" y="{{ base_height-15-2 }}">困</text>
+  <text class="other" x="{{ padding+base_width*23.5 }}" y="{{ base_height-15-2 }}">訟</text>
+  <text class="other" x="{{ padding+base_width*24.5 }}" y="{{ base_height-15-2 }}">升</text>
+  <text class="other" x="{{ padding+base_width*25.5 }}" y="{{ base_height-15-2 }}">蠱</text>
+  <text class="other" x="{{ padding+base_width*26.5 }}" y="{{ base_height-15-2 }}">井</text>
+  <text class="other" x="{{ padding+base_width*27.5 }}" y="{{ base_height-15-2 }}">巽</text>
+  <text class="other" x="{{ padding+base_width*28.5 }}" y="{{ base_height-15-2 }}">恆</text>
+  <text class="other" x="{{ padding+base_width*29.5 }}" y="{{ base_height-15-2 }}">鼎</text>
+  <text class="other" x="{{ padding+base_width*30.5 }}" y="{{ base_height-15*2-2 }}">大過</text>
+  <text class="other" x="{{ padding+base_width*31.5 }}" y="{{ base_height-15-2 }}">姤</text>
+  <text class="other" x="{{ padding+base_width*32.5 }}" y="{{ base_height-15-2 }}">複</text>
+  <text class="other" x="{{ padding+base_width*33.5 }}" y="{{ base_height-15-2 }}">頤</text>
+  <text class="other" x="{{ padding+base_width*34.5 }}" y="{{ base_height-15-2 }}">屯</text>
+  <text class="other" x="{{ padding+base_width*35.5 }}" y="{{ base_height-15-2 }}">益</text>
+  <text class="other" x="{{ padding+base_width*36.5 }}" y="{{ base_height-15-2 }}">震</text>
+  <text class="other" x="{{ padding+base_width*37.5 }}" y="{{ base_height-15*2-2 }}">噬嗑</text>
+  <text class="other" x="{{ padding+base_width*38.5 }}" y="{{ base_height-15-2 }}">隨</text>
+  <text class="other" x="{{ padding+base_width*39.5 }}" y="{{ base_height-15*2-2 }}">無妄</text>
+  <text class="other" x="{{ padding+base_width*40.5 }}" y="{{ base_height-15*2-2 }}">明夷</text>
+  <text class="other" x="{{ padding+base_width*41.5 }}" y="{{ base_height-15-2 }}">賁</text>
+  <text class="other" x="{{ padding+base_width*42.5 }}" y="{{ base_height-15*2-2 }}">既濟</text>
+  <text class="other" x="{{ padding+base_width*43.5 }}" y="{{ base_height-15*2-2 }}">家人</text>
+  <text class="other" x="{{ padding+base_width*44.5 }}" y="{{ base_height-15-2 }}">豐</text>
+  <text class="other" x="{{ padding+base_width*45.5 }}" y="{{ base_height-15-2 }}">離</text>
+  <text class="other" x="{{ padding+base_width*46.5 }}" y="{{ base_height-15-2 }}">革</text>
+  <text class="other" x="{{ padding+base_width*47.5 }}" y="{{ base_height-15*2-2 }}">同人</text>
+  <text class="other" x="{{ padding+base_width*48.5 }}" y="{{ base_height-15-2 }}">臨</text>
+  <text class="other" x="{{ padding+base_width*49.5 }}" y="{{ base_height-15-2 }}">損</text>
+  <text class="other" x="{{ padding+base_width*50.5 }}" y="{{ base_height-15-2 }}">節</text>
+  <text class="other" x="{{ padding+base_width*51.5 }}" y="{{ base_height-15*2-2 }}">中孚</text>
+  <text class="other" x="{{ padding+base_width*52.5 }}" y="{{ base_height-15*2-2 }}">歸妹</text>
+  <text class="other" x="{{ padding+base_width*53.5 }}" y="{{ base_height-15-2 }}">睽</text>
+  <text class="other" x="{{ padding+base_width*54.5 }}" y="{{ base_height-15-2 }}">兌</text>
+  <text class="other" x="{{ padding+base_width*55.5 }}" y="{{ base_height-15-2 }}">履</text>
+  <text class="other" x="{{ padding+base_width*56.5 }}" y="{{ base_height-15-2 }}">泰</text>
+  <text class="other" x="{{ padding+base_width*57.5 }}" y="{{ base_height-15*2-2 }}">大畜</text>
+  <text class="other" x="{{ padding+base_width*58.5 }}" y="{{ base_height-15-2 }}">需</text>
+  <text class="other" x="{{ padding+base_width*59.5 }}" y="{{ base_height-15*2-2 }}">小畜</text>
+  <text class="other" x="{{ padding+base_width*60.5 }}" y="{{ base_height-15*2-2 }}">大壯</text>
+  <text class="other" x="{{ padding+base_width*61.5 }}" y="{{ base_height-15*2-2 }}">大有</text>
+  <text class="other" x="{{ padding+base_width*62.5 }}" y="{{ base_height-15-2 }}">夬</text>
+  <text class="other" x="{{ padding+base_width*63.5 }}" y="{{ base_height-15-2 }}">乾</text>
+
+  <rect x="{{ padding }}" y="{{ base_height }}" width="{{ base_width*64 }}" height="{{ base_height }}" fill="url(#pattern_1)"/>
+  <rect x="{{ padding }}" y="{{ base_height*2+2}}" width="{{ base_width*64 }}" height="{{ base_height }}" fill="url(#pattern_2)"/>
+  <rect x="{{ padding }}" y="{{ base_height*3+4 }}" width="{{ base_width*64 }}" height="{{ base_height }}" fill="url(#pattern_3)"/>
+  <g>
+    <rect x="{{ padding }}" y="{{ base_height*4+6 }}" width="{{ base_width*64 }}" height="{{ base_height }}" fill="url(#pattern_4)"/>
+    <text class="white" x="{{ padding+0.0625*image_width }}" y="{{ base_height*4.5+6 }}">坤</text>
+    <text class="black" x="{{ padding+0.1875*image_width }}" y="{{ base_height*4.5+6 }}">艮</text>
+    <text class="white" x="{{ padding+0.3125*image_width }}" y="{{ base_height*4.5+6 }}">坎</text>
+    <text class="black" x="{{ padding+0.4375*image_width }}" y="{{ base_height*4.5+6 }}">巽</text>
+    <text class="white" x="{{ padding+0.5625*image_width }}" y="{{ base_height*4.5+6 }}">震</text>
+    <text class="black" x="{{ padding+0.6875*image_width }}" y="{{ base_height*4.5+6 }}">離</text>
+    <text class="white" x="{{ padding+0.8125*image_width }}" y="{{ base_height*4.5+6 }}">兑</text>
+    <text class="black" x="{{ padding+0.9375*image_width }}" y="{{ base_height*4.5+6 }}">乾</text>
+  </g>
+  <g>
+    <rect x="{{ padding }}" y="{{ base_height*5+8 }}" width="{{ base_width*64 }}" height="{{ base_height }}" fill="url(#pattern_5)"/>
+    <text x="{{ padding+0.125*image_width }}" y="{{ base_height*5.5+8 }}" class="white">太陰</text>
+    <text x="{{ padding+0.375*image_width }}" y="{{ base_height*5.5+8 }}" class="black">少陽</text>
+    <text x="{{ padding+0.625*image_width }}" y="{{ base_height*5.5+8 }}" class="white">少陰</text>
+    <text x="{{ padding+0.875*image_width }}" y="{{ base_height*5.5+8 }}" class="black">太陽</text>
+  </g>
+  <g>
+    <rect x="{{ padding }}" y="{{ base_height*6+10 }}" width="{{ base_width*64 }}" height="{{ base_height }}" fill="url(#pattern_6)"/>
+    <text x="{{ padding+0.25*image_width }}" y="{{ base_height*6.5+10 }}" class="white">陰</text>
+    <text x="{{ padding+0.75*image_width }}" y="{{ base_height*6.5+10 }}" class="black">陽</text>
+  </g>
+  <g>
+    <rect x="{{ padding }}" y="{{ base_height*7+12 }}" width="{{ base_width*64 }}" height="{{ base_height }}" fill="white"/>
+    <text x="{{ padding+0.5*image_width}}" y="{{ base_height*7.5+12 }}" class="black">太極</text>
+  </g>
+</svg>
