@@ -120,8 +120,11 @@
   <text class="other" x="{{ padding+base_width*63.5 }}" y="{{ base_height-15-2 }}">乾</text>
 
   <rect x="{{ padding }}" y="{{ base_height }}" width="{{ base_width*64 }}" height="{{ base_height }}" fill="url(#pattern_1)"/>
+  <text class="other" x="{{ padding+base_width*64.5 }}" y="{{ base_height+(base_height-45)/2 }}">六十四</text>
   <rect x="{{ padding }}" y="{{ base_height*2+2}}" width="{{ base_width*64 }}" height="{{ base_height }}" fill="url(#pattern_2)"/>
+  <text class="other" x="{{ padding+base_width*64.5 }}" y="{{ base_height*2+2+(base_height-45)/2 }}">三十二</text>
   <rect x="{{ padding }}" y="{{ base_height*3+4 }}" width="{{ base_width*64 }}" height="{{ base_height }}" fill="url(#pattern_3)"/>
+  <text class="other" x="{{ padding+base_width*64.5 }}" y="{{ base_height*3+4+base_height/2-15 }}">十六</text>
   <g>
     <rect x="{{ padding }}" y="{{ base_height*4+6 }}" width="{{ base_width*64 }}" height="{{ base_height }}" fill="url(#pattern_4)"/>
     <text class="white" x="{{ padding+0.0625*image_width }}" y="{{ base_height*4.5+6 }}">坤</text>
@@ -132,6 +135,7 @@
     <text class="black" x="{{ padding+0.6875*image_width }}" y="{{ base_height*4.5+6 }}">離</text>
     <text class="white" x="{{ padding+0.8125*image_width }}" y="{{ base_height*4.5+6 }}">兌</text>
     <text class="black" x="{{ padding+0.9375*image_width }}" y="{{ base_height*4.5+6 }}">乾</text>
+    <text class="other" x="{{ padding+base_width*64.5 }}" y="{{ base_height*4+6+base_height/2-15 }}">八卦</text>
   </g>
   <g>
     <rect x="{{ padding }}" y="{{ base_height*5+8 }}" width="{{ base_width*64 }}" height="{{ base_height }}" fill="url(#pattern_5)"/>
@@ -139,14 +143,16 @@
     <text x="{{ padding+0.375*image_width }}" y="{{ base_height*5.5+8 }}" class="black">少陽</text>
     <text x="{{ padding+0.625*image_width }}" y="{{ base_height*5.5+8 }}" class="white">少陰</text>
     <text x="{{ padding+0.875*image_width }}" y="{{ base_height*5.5+8 }}" class="black">太陽</text>
+    <text class="other" x="{{ padding+base_width*64.5 }}" y="{{ base_height*5+8+base_height/2-15 }}">四象</text>
   </g>
   <g>
     <rect x="{{ padding }}" y="{{ base_height*6+10 }}" width="{{ base_width*64 }}" height="{{ base_height }}" fill="url(#pattern_6)"/>
     <text x="{{ padding+0.25*image_width }}" y="{{ base_height*6.5+10 }}" class="white">陰</text>
     <text x="{{ padding+0.75*image_width }}" y="{{ base_height*6.5+10 }}" class="black">陽</text>
+    <text class="other" x="{{ padding+base_width*64.5 }}" y="{{ base_height*6+10+base_height/2-15 }}">兩儀</text>
   </g>
   <g>
     <rect x="{{ padding }}" y="{{ base_height*7+12 }}" width="{{ base_width*64 }}" height="{{ base_height }}" fill="white"/>
-    <text x="{{ padding+0.5*image_width}}" y="{{ base_height*7.5+12 }}" class="black">太極</text>
+    <text x="{{ padding+0.5*image_width}}" y="{{ base_height*7.5+12 }}" class="black">太 極</text>
   </g>
 </svg>

@@ -14,15 +14,17 @@ def get_hexagram_template_fields():
         "base_height": base_height,
         "base_width": base_width,
         "image_width": image_width,
-        "total_width": image_width + padding * 2,
+        "total_width": image_width + padding * 3,
         "padding": padding,
     }
 
 def get_trigram_template_fields():
-    start_x = 640-7.5
+    font_size = 25
+    start_x = 640 - font_size/2
     start_y = 300
 
     return {
+        "font_size": font_size,
         "start_x": start_x,
         "start_y": start_y
     }

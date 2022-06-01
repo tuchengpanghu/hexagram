@@ -2,7 +2,7 @@
   <style>
     text {
       font-family: Hiragino Sans CNS;
-      font-size: 15px;
+      font-size: {{ font_size }}px;
       font-weight: bold;
       text-anchor: end;
       writing-mode: vertical-lr;
@@ -11,6 +11,7 @@
   <circle cx="640" cy="640" r="3" style="fill:black"/>
   <line x1="0" y1="640" x2="1280" y2="640" stroke="black" stroke-width="1"/>
   <line x1="640" y1="0" x2="640" y2="1280" stroke="black" stroke-width="1"/>
+
   <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(0,640,640)">乾</text>
   <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-5.625,640,640)">夬</text>
   <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-11.25,640,640)">大有</text>
@@ -75,4 +76,70 @@
   <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-343.125,640,640)">鼎</text>
   <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-348.75,640,640)">大過</text>
   <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-354.375,640,640)">姤</text>
+
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(0,640,640)">䷀</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-5.625,640,640)">䷪</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-11.25,640,640)">䷍</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-16.875,640,640)">䷡</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-22.5,640,640)">䷈</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-28.125,640,640)">䷄</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-33.75,640,640)">䷙</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-39.375,640,640)">䷊</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-45,640,640)">䷉</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-50.625,640,640)">䷹</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-56.25,640,640)">䷥</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-61.875,640,640)">䷵</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-67.5,640,640)">䷼</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-73.125,640,640)">䷻</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-78.75,640,640)">䷨</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-84.375,640,640)">䷒</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-90,640,640)">䷌</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-95.625,640,640)">䷰</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-101.25,640,640)">䷝</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-106.875,640,640)">䷶</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-112.5,640,640)">䷤</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-118.125,640,640)">䷾</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-123.75,640,640)">䷕</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-129.375,640,640)">䷣</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-135,640,640)">䷘</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-140.625,640,640)">䷐</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-146.25,640,640)">䷔</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-151.875,640,640)">䷲</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-157.5,640,640)">䷩</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-163.125,640,640)">䷂</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-168.75,640,640)">䷚</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-174.375,640,640)">䷗</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-180,640,640)">䷁</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-185.625,640,640)">䷖</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-191.25,640,640)">䷇</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-196.875,640,640)">䷓</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-202.5,640,640)">䷏</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-208.125,640,640)">䷢</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-213.75,640,640)">䷬</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-219.375,640,640)">䷋</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-225,640,640)">䷎</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-230.625,640,640)">䷳</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-236.25,640,640)">䷦</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-241.875,640,640)">䷴</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-247.5,640,640)">䷽</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-253.125,640,640)">䷷</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-258.75,640,640)">䷞</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-264.375,640,640)">䷠</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-270,640,640)">䷆</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-275.625,640,640)">䷃</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-281.25,640,640)">䷜</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-286.875,640,640)">䷺</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-292.5,640,640)">䷧</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-298.125,640,640)">䷿</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-303.75,640,640)">䷮</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-309.375,640,640)">䷅</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-315,640,640)">䷭</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-320.625,640,640)">䷑</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-326.25,640,640)">䷯</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-331.875,640,640)">䷸</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-337.5,640,640)">䷟</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-343.125,640,640)">䷱</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-348.75,640,640)">䷛</text>
+<text x="{{ start_x-2 }}" y="{{ start_y+font_size+5 }}" transform="rotate(-354.375,640,640)">䷫</text>
+
 </svg>
