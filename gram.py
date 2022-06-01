@@ -19,7 +19,7 @@ def get_hexagram_template_fields():
     }
 
 def get_trigram_template_fields():
-    radius = 200
+    radius = 400
 
     return {
         "radius": radius
@@ -35,7 +35,7 @@ def get_svg(gram):
         template = "hexagram.svg"
 
     if gram == "trigram":
-        template_fields = get_hexagram_template_fields()
+        template_fields = get_trigram_template_fields()
         template = "trigram.svg"
 
     t = render_template(template, **template_fields)

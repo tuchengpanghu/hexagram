@@ -130,7 +130,7 @@
     <text class="black" x="{{ padding+0.4375*image_width }}" y="{{ base_height*4.5+6 }}">巽</text>
     <text class="white" x="{{ padding+0.5625*image_width }}" y="{{ base_height*4.5+6 }}">震</text>
     <text class="black" x="{{ padding+0.6875*image_width }}" y="{{ base_height*4.5+6 }}">離</text>
-    <text class="white" x="{{ padding+0.8125*image_width }}" y="{{ base_height*4.5+6 }}">兑</text>
+    <text class="white" x="{{ padding+0.8125*image_width }}" y="{{ base_height*4.5+6 }}">兌</text>
     <text class="black" x="{{ padding+0.9375*image_width }}" y="{{ base_height*4.5+6 }}">乾</text>
   </g>
   <g>
