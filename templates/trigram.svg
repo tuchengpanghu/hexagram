@@ -9,68 +9,70 @@
     }
   </style>
   <circle cx="640" cy="640" r="3" style="fill:black"/>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(0,640,640)">乾</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-5.625,640,640)">夬</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-11.25,640,640)">大有</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-16.875,640,640)">大壯</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-22.5,640,640)">小畜</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-28.125,640,640)">需</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-33.75,640,640)">大畜</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-39.375,640,640)">泰</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-45,640,640)">履</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-50.625,640,640)">兌</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-56.25,640,640)">睽</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-61.875,640,640)">歸妹</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-67.5,640,640)">中孚</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-73.125,640,640)">節</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-78.75,640,640)">損</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-84.375,640,640)">臨</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-90,640,640)">同人</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-95.625,640,640)">革</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-101.25,640,640)">離</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-106.875,640,640)">豐</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-112.5,640,640)">家人</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-118.125,640,640)">既濟</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-123.75,640,640)">賁</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-129.375,640,640)">明夷</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-135,640,640)">無妄</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-140.625,640,640)">隨</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-146.25,640,640)">噬嗑</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-151.875,640,640)">震</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-157.5,640,640)">益</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-163.125,640,640)">屯</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-168.75,640,640)">頤</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-174.375,640,640)">複</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-180,640,640)">坤</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-185.625,640,640)">剝</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-191.25,640,640)">比</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-196.875,640,640)">觀</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-202.5,640,640)">豫</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-208.125,640,640)">晉</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-213.75,640,640)">萃</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-219.375,640,640)">否</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-225,640,640)">謙</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-230.625,640,640)">艮</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-236.25,640,640)">蹇</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-241.875,640,640)">漸</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-247.5,640,640)">小過</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-253.125,640,640)">旅</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-258.75,640,640)">咸</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-264.375,640,640)">遁</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-270,640,640)">師</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-275.625,640,640)">蒙</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-281.25,640,640)">坎</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-286.875,640,640)">渙</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-292.5,640,640)">解</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-298.125,640,640)">未濟</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-303.75,640,640)">困</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-309.375,640,640)">訟</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-315,640,640)">升</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-320.625,640,640)">蠱</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-326.25,640,640)">井</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-331.875,640,640)">巽</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-337.5,640,640)">恆</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-343.125,640,640)">鼎</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-348.75,640,640)">大過</text>
-<text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-354.375,640,640)">姤</text>
+  <line x1="0" y1="640" x2="1280" y2="640" stroke="black" stroke-width="1"/>
+  <line x1="640" y1="0" x2="640" y2="1280" stroke="black" stroke-width="1"/>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(0,640,640)">乾</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-5.625,640,640)">夬</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-11.25,640,640)">大有</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-16.875,640,640)">大壯</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-22.5,640,640)">小畜</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-28.125,640,640)">需</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-33.75,640,640)">大畜</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-39.375,640,640)">泰</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-45,640,640)">履</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-50.625,640,640)">兌</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-56.25,640,640)">睽</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-61.875,640,640)">歸妹</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-67.5,640,640)">中孚</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-73.125,640,640)">節</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-78.75,640,640)">損</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-84.375,640,640)">臨</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-90,640,640)">同人</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-95.625,640,640)">革</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-101.25,640,640)">離</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-106.875,640,640)">豐</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-112.5,640,640)">家人</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-118.125,640,640)">既濟</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-123.75,640,640)">賁</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-129.375,640,640)">明夷</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-135,640,640)">無妄</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-140.625,640,640)">隨</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-146.25,640,640)">噬嗑</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-151.875,640,640)">震</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-157.5,640,640)">益</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-163.125,640,640)">屯</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-168.75,640,640)">頤</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-174.375,640,640)">複</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-180,640,640)">坤</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-185.625,640,640)">剝</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-191.25,640,640)">比</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-196.875,640,640)">觀</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-202.5,640,640)">豫</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-208.125,640,640)">晉</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-213.75,640,640)">萃</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-219.375,640,640)">否</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-225,640,640)">謙</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-230.625,640,640)">艮</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-236.25,640,640)">蹇</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-241.875,640,640)">漸</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-247.5,640,640)">小過</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-253.125,640,640)">旅</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-258.75,640,640)">咸</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-264.375,640,640)">遁</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-270,640,640)">師</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-275.625,640,640)">蒙</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-281.25,640,640)">坎</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-286.875,640,640)">渙</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-292.5,640,640)">解</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-298.125,640,640)">未濟</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-303.75,640,640)">困</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-309.375,640,640)">訟</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-315,640,640)">升</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-320.625,640,640)">蠱</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-326.25,640,640)">井</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-331.875,640,640)">巽</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-337.5,640,640)">恆</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-343.125,640,640)">鼎</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-348.75,640,640)">大過</text>
+  <text x="{{ start_x }}" y="{{ start_y }}" transform="rotate(-354.375,640,640)">姤</text>
 </svg>
