@@ -160,70 +160,70 @@
 
 <!-- <text class="text2" x="{{ 640 }}" y="{{ 640 }}">䷁</text> -->
 
-<text class="square" x="{{ 3.5*(font_size+20)+640 }}" y="{{ 3.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷀</text>
-<text class="square" x="{{ 2.5*(font_size+20)+640 }}" y="{{ 3.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷪</text>
-<text class="square" x="{{ 1.5*(font_size+20)+640 }}" y="{{ 3.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷍</text>
-<text class="square" x="{{ 0.5*(font_size+20)+640 }}" y="{{ 3.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷡</text>
-<text class="square" x="{{ -0.5*(font_size+20)+640 }}" y="{{ 3.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷈</text>
-<text class="square" x="{{ -1.5*(font_size+20)+640 }}" y="{{ 3.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷄</text>
-<text class="square" x="{{ -2.5*(font_size+20)+640 }}" y="{{ 3.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷙</text>
-<text class="square" x="{{ -3.5*(font_size+20)+640 }}" y="{{ 3.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷊</text>
-<text class="square" x="{{ 3.5*(font_size+20)+640 }}" y="{{ 2.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷉</text>
-<text class="square" x="{{ 2.5*(font_size+20)+640 }}" y="{{ 2.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷹</text>
-<text class="square" x="{{ 1.5*(font_size+20)+640 }}" y="{{ 2.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷥</text>
-<text class="square" x="{{ 0.5*(font_size+20)+640 }}" y="{{ 2.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷵</text>
-<text class="square" x="{{ -0.5*(font_size+20)+640 }}" y="{{ 2.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷼</text>
-<text class="square" x="{{ -1.5*(font_size+20)+640 }}" y="{{ 2.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷻</text>
-<text class="square" x="{{ -2.5*(font_size+20)+640 }}" y="{{ 2.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷨</text>
-<text class="square" x="{{ -3.5*(font_size+20)+640 }}" y="{{ 2.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷒</text>
-<text class="square" x="{{ 3.5*(font_size+20)+640 }}" y="{{ 1.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷌</text>
-<text class="square" x="{{ 2.5*(font_size+20)+640 }}" y="{{ 1.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷰</text>
-<text class="square" x="{{ 1.5*(font_size+20)+640 }}" y="{{ 1.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷝</text>
-<text class="square" x="{{ 0.5*(font_size+20)+640 }}" y="{{ 1.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷶</text>
-<text class="square" x="{{ -0.5*(font_size+20)+640 }}" y="{{ 1.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷤</text>
-<text class="square" x="{{ -1.5*(font_size+20)+640 }}" y="{{ 1.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷾</text>
-<text class="square" x="{{ -2.5*(font_size+20)+640 }}" y="{{ 1.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷕</text>
-<text class="square" x="{{ -3.5*(font_size+20)+640 }}" y="{{ 1.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷣</text>
-<text class="square" x="{{ 3.5*(font_size+20)+640 }}" y="{{ 0.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷘</text>
-<text class="square" x="{{ 2.5*(font_size+20)+640 }}" y="{{ 0.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷐</text>
-<text class="square" x="{{ 1.5*(font_size+20)+640 }}" y="{{ 0.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷔</text>
-<text class="square" x="{{ 0.5*(font_size+20)+640 }}" y="{{ 0.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷲</text>
-<text class="square" x="{{ -0.5*(font_size+20)+640 }}" y="{{ 0.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷩</text>
-<text class="square" x="{{ -1.5*(font_size+20)+640 }}" y="{{ 0.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷂</text>
-<text class="square" x="{{ -2.5*(font_size+20)+640 }}" y="{{ 0.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷚</text>
-<text class="square" x="{{ -3.5*(font_size+20)+640 }}" y="{{ 0.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷗</text>
-<text class="square" x="{{ 3.5*(font_size+20)+640 }}" y="{{ -0.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷫</text>
-<text class="square" x="{{ 2.5*(font_size+20)+640 }}" y="{{ -0.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷛</text>
-<text class="square" x="{{ 1.5*(font_size+20)+640 }}" y="{{ -0.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷱</text>
-<text class="square" x="{{ 0.5*(font_size+20)+640 }}" y="{{ -0.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷟</text>
-<text class="square" x="{{ -0.5*(font_size+20)+640 }}" y="{{ -0.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷸</text>
-<text class="square" x="{{ -1.5*(font_size+20)+640 }}" y="{{ -0.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷯</text>
-<text class="square" x="{{ -2.5*(font_size+20)+640 }}" y="{{ -0.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷑</text>
-<text class="square" x="{{ -3.5*(font_size+20)+640 }}" y="{{ -0.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷭</text>
-<text class="square" x="{{ 3.5*(font_size+20)+640 }}" y="{{ -1.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷅</text>
-<text class="square" x="{{ 2.5*(font_size+20)+640 }}" y="{{ -1.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷮</text>
-<text class="square" x="{{ 1.5*(font_size+20)+640 }}" y="{{ -1.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷿</text>
-<text class="square" x="{{ 0.5*(font_size+20)+640 }}" y="{{ -1.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷧</text>
-<text class="square" x="{{ -0.5*(font_size+20)+640 }}" y="{{ -1.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷺</text>
-<text class="square" x="{{ -1.5*(font_size+20)+640 }}" y="{{ -1.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷜</text>
-<text class="square" x="{{ -2.5*(font_size+20)+640 }}" y="{{ -1.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷃</text>
-<text class="square" x="{{ -3.5*(font_size+20)+640 }}" y="{{ -1.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷆</text>
-<text class="square" x="{{ 3.5*(font_size+20)+640 }}" y="{{ -2.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷠</text>
-<text class="square" x="{{ 2.5*(font_size+20)+640 }}" y="{{ -2.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷞</text>
-<text class="square" x="{{ 1.5*(font_size+20)+640 }}" y="{{ -2.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷷</text>
-<text class="square" x="{{ 0.5*(font_size+20)+640 }}" y="{{ -2.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷽</text>
-<text class="square" x="{{ -0.5*(font_size+20)+640 }}" y="{{ -2.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷴</text>
-<text class="square" x="{{ -1.5*(font_size+20)+640 }}" y="{{ -2.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷦</text>
-<text class="square" x="{{ -2.5*(font_size+20)+640 }}" y="{{ -2.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷳</text>
-<text class="square" x="{{ -3.5*(font_size+20)+640 }}" y="{{ -2.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷎</text>
-<text class="square" x="{{ 3.5*(font_size+20)+640 }}" y="{{ -3.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷋</text>
-<text class="square" x="{{ 2.5*(font_size+20)+640 }}" y="{{ -3.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷬</text>
-<text class="square" x="{{ 1.5*(font_size+20)+640 }}" y="{{ -3.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷢</text>
-<text class="square" x="{{ 0.5*(font_size+20)+640 }}" y="{{ -3.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷏</text>
-<text class="square" x="{{ -0.5*(font_size+20)+640 }}" y="{{ -3.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷓</text>
-<text class="square" x="{{ -1.5*(font_size+20)+640 }}" y="{{ -3.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷇</text>
-<text class="square" x="{{ -2.5*(font_size+20)+640 }}" y="{{ -3.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷖</text>
-<text class="square" x="{{ -3.5*(font_size+20)+640 }}" y="{{ -3.5*(font_size+20)+640+font_size/2+3 }}" text-anchor="middle">䷁</text>
+<text class="square" x="{{ 3.5*(font_size+20)+640 }}" y="{{ 3.5*(font_size+20)+640+font_size/2+3 }}">䷀</text>
+<text class="square" x="{{ 2.5*(font_size+20)+640 }}" y="{{ 3.5*(font_size+20)+640+font_size/2+3 }}">䷪</text>
+<text class="square" x="{{ 1.5*(font_size+20)+640 }}" y="{{ 3.5*(font_size+20)+640+font_size/2+3 }}">䷍</text>
+<text class="square" x="{{ 0.5*(font_size+20)+640 }}" y="{{ 3.5*(font_size+20)+640+font_size/2+3 }}">䷡</text>
+<text class="square" x="{{ -0.5*(font_size+20)+640 }}" y="{{ 3.5*(font_size+20)+640+font_size/2+3 }}">䷈</text>
+<text class="square" x="{{ -1.5*(font_size+20)+640 }}" y="{{ 3.5*(font_size+20)+640+font_size/2+3 }}">䷄</text>
+<text class="square" x="{{ -2.5*(font_size+20)+640 }}" y="{{ 3.5*(font_size+20)+640+font_size/2+3 }}">䷙</text>
+<text class="square" x="{{ -3.5*(font_size+20)+640 }}" y="{{ 3.5*(font_size+20)+640+font_size/2+3 }}">䷊</text>
+<text class="square" x="{{ 3.5*(font_size+20)+640 }}" y="{{ 2.5*(font_size+20)+640+font_size/2+3 }}">䷉</text>
+<text class="square" x="{{ 2.5*(font_size+20)+640 }}" y="{{ 2.5*(font_size+20)+640+font_size/2+3 }}">䷹</text>
+<text class="square" x="{{ 1.5*(font_size+20)+640 }}" y="{{ 2.5*(font_size+20)+640+font_size/2+3 }}">䷥</text>
+<text class="square" x="{{ 0.5*(font_size+20)+640 }}" y="{{ 2.5*(font_size+20)+640+font_size/2+3 }}">䷵</text>
+<text class="square" x="{{ -0.5*(font_size+20)+640 }}" y="{{ 2.5*(font_size+20)+640+font_size/2+3 }}">䷼</text>
+<text class="square" x="{{ -1.5*(font_size+20)+640 }}" y="{{ 2.5*(font_size+20)+640+font_size/2+3 }}">䷻</text>
+<text class="square" x="{{ -2.5*(font_size+20)+640 }}" y="{{ 2.5*(font_size+20)+640+font_size/2+3 }}">䷨</text>
+<text class="square" x="{{ -3.5*(font_size+20)+640 }}" y="{{ 2.5*(font_size+20)+640+font_size/2+3 }}">䷒</text>
+<text class="square" x="{{ 3.5*(font_size+20)+640 }}" y="{{ 1.5*(font_size+20)+640+font_size/2+3 }}">䷌</text>
+<text class="square" x="{{ 2.5*(font_size+20)+640 }}" y="{{ 1.5*(font_size+20)+640+font_size/2+3 }}">䷰</text>
+<text class="square" x="{{ 1.5*(font_size+20)+640 }}" y="{{ 1.5*(font_size+20)+640+font_size/2+3 }}">䷝</text>
+<text class="square" x="{{ 0.5*(font_size+20)+640 }}" y="{{ 1.5*(font_size+20)+640+font_size/2+3 }}">䷶</text>
+<text class="square" x="{{ -0.5*(font_size+20)+640 }}" y="{{ 1.5*(font_size+20)+640+font_size/2+3 }}">䷤</text>
+<text class="square" x="{{ -1.5*(font_size+20)+640 }}" y="{{ 1.5*(font_size+20)+640+font_size/2+3 }}">䷾</text>
+<text class="square" x="{{ -2.5*(font_size+20)+640 }}" y="{{ 1.5*(font_size+20)+640+font_size/2+3 }}">䷕</text>
+<text class="square" x="{{ -3.5*(font_size+20)+640 }}" y="{{ 1.5*(font_size+20)+640+font_size/2+3 }}">䷣</text>
+<text class="square" x="{{ 3.5*(font_size+20)+640 }}" y="{{ 0.5*(font_size+20)+640+font_size/2+3 }}">䷘</text>
+<text class="square" x="{{ 2.5*(font_size+20)+640 }}" y="{{ 0.5*(font_size+20)+640+font_size/2+3 }}">䷐</text>
+<text class="square" x="{{ 1.5*(font_size+20)+640 }}" y="{{ 0.5*(font_size+20)+640+font_size/2+3 }}">䷔</text>
+<text class="square" x="{{ 0.5*(font_size+20)+640 }}" y="{{ 0.5*(font_size+20)+640+font_size/2+3 }}">䷲</text>
+<text class="square" x="{{ -0.5*(font_size+20)+640 }}" y="{{ 0.5*(font_size+20)+640+font_size/2+3 }}">䷩</text>
+<text class="square" x="{{ -1.5*(font_size+20)+640 }}" y="{{ 0.5*(font_size+20)+640+font_size/2+3 }}">䷂</text>
+<text class="square" x="{{ -2.5*(font_size+20)+640 }}" y="{{ 0.5*(font_size+20)+640+font_size/2+3 }}">䷚</text>
+<text class="square" x="{{ -3.5*(font_size+20)+640 }}" y="{{ 0.5*(font_size+20)+640+font_size/2+3 }}">䷗</text>
+<text class="square" x="{{ 3.5*(font_size+20)+640 }}" y="{{ -0.5*(font_size+20)+640+font_size/2+3 }}">䷫</text>
+<text class="square" x="{{ 2.5*(font_size+20)+640 }}" y="{{ -0.5*(font_size+20)+640+font_size/2+3 }}">䷛</text>
+<text class="square" x="{{ 1.5*(font_size+20)+640 }}" y="{{ -0.5*(font_size+20)+640+font_size/2+3 }}">䷱</text>
+<text class="square" x="{{ 0.5*(font_size+20)+640 }}" y="{{ -0.5*(font_size+20)+640+font_size/2+3 }}">䷟</text>
+<text class="square" x="{{ -0.5*(font_size+20)+640 }}" y="{{ -0.5*(font_size+20)+640+font_size/2+3 }}">䷸</text>
+<text class="square" x="{{ -1.5*(font_size+20)+640 }}" y="{{ -0.5*(font_size+20)+640+font_size/2+3 }}">䷯</text>
+<text class="square" x="{{ -2.5*(font_size+20)+640 }}" y="{{ -0.5*(font_size+20)+640+font_size/2+3 }}">䷑</text>
+<text class="square" x="{{ -3.5*(font_size+20)+640 }}" y="{{ -0.5*(font_size+20)+640+font_size/2+3 }}">䷭</text>
+<text class="square" x="{{ 3.5*(font_size+20)+640 }}" y="{{ -1.5*(font_size+20)+640+font_size/2+3 }}">䷅</text>
+<text class="square" x="{{ 2.5*(font_size+20)+640 }}" y="{{ -1.5*(font_size+20)+640+font_size/2+3 }}">䷮</text>
+<text class="square" x="{{ 1.5*(font_size+20)+640 }}" y="{{ -1.5*(font_size+20)+640+font_size/2+3 }}">䷿</text>
+<text class="square" x="{{ 0.5*(font_size+20)+640 }}" y="{{ -1.5*(font_size+20)+640+font_size/2+3 }}">䷧</text>
+<text class="square" x="{{ -0.5*(font_size+20)+640 }}" y="{{ -1.5*(font_size+20)+640+font_size/2+3 }}">䷺</text>
+<text class="square" x="{{ -1.5*(font_size+20)+640 }}" y="{{ -1.5*(font_size+20)+640+font_size/2+3 }}">䷜</text>
+<text class="square" x="{{ -2.5*(font_size+20)+640 }}" y="{{ -1.5*(font_size+20)+640+font_size/2+3 }}">䷃</text>
+<text class="square" x="{{ -3.5*(font_size+20)+640 }}" y="{{ -1.5*(font_size+20)+640+font_size/2+3 }}">䷆</text>
+<text class="square" x="{{ 3.5*(font_size+20)+640 }}" y="{{ -2.5*(font_size+20)+640+font_size/2+3 }}">䷠</text>
+<text class="square" x="{{ 2.5*(font_size+20)+640 }}" y="{{ -2.5*(font_size+20)+640+font_size/2+3 }}">䷞</text>
+<text class="square" x="{{ 1.5*(font_size+20)+640 }}" y="{{ -2.5*(font_size+20)+640+font_size/2+3 }}">䷷</text>
+<text class="square" x="{{ 0.5*(font_size+20)+640 }}" y="{{ -2.5*(font_size+20)+640+font_size/2+3 }}">䷽</text>
+<text class="square" x="{{ -0.5*(font_size+20)+640 }}" y="{{ -2.5*(font_size+20)+640+font_size/2+3 }}">䷴</text>
+<text class="square" x="{{ -1.5*(font_size+20)+640 }}" y="{{ -2.5*(font_size+20)+640+font_size/2+3 }}">䷦</text>
+<text class="square" x="{{ -2.5*(font_size+20)+640 }}" y="{{ -2.5*(font_size+20)+640+font_size/2+3 }}">䷳</text>
+<text class="square" x="{{ -3.5*(font_size+20)+640 }}" y="{{ -2.5*(font_size+20)+640+font_size/2+3 }}">䷎</text>
+<text class="square" x="{{ 3.5*(font_size+20)+640 }}" y="{{ -3.5*(font_size+20)+640+font_size/2+3 }}">䷋</text>
+<text class="square" x="{{ 2.5*(font_size+20)+640 }}" y="{{ -3.5*(font_size+20)+640+font_size/2+3 }}">䷬</text>
+<text class="square" x="{{ 1.5*(font_size+20)+640 }}" y="{{ -3.5*(font_size+20)+640+font_size/2+3 }}">䷢</text>
+<text class="square" x="{{ 0.5*(font_size+20)+640 }}" y="{{ -3.5*(font_size+20)+640+font_size/2+3 }}">䷏</text>
+<text class="square" x="{{ -0.5*(font_size+20)+640 }}" y="{{ -3.5*(font_size+20)+640+font_size/2+3 }}">䷓</text>
+<text class="square" x="{{ -1.5*(font_size+20)+640 }}" y="{{ -3.5*(font_size+20)+640+font_size/2+3 }}">䷇</text>
+<text class="square" x="{{ -2.5*(font_size+20)+640 }}" y="{{ -3.5*(font_size+20)+640+font_size/2+3 }}">䷖</text>
+<text class="square" x="{{ -3.5*(font_size+20)+640 }}" y="{{ -3.5*(font_size+20)+640+font_size/2+3 }}">䷁</text>
 
 
 </svg>
