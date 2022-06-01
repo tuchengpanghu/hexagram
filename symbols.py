@@ -18,3 +18,11 @@ b = ('䷀','䷪','䷍','䷡','䷈','䷄','䷙','䷊',
      '䷠','䷞','䷷','䷽','䷴','䷦','䷳','䷎',
      '䷋','䷬','䷢','䷏','䷓','䷇','䷖','䷁'
     )
+
+s = """<text class="text2" x="{{ %0.1f*(font_size+20)+640 }}" y="{{ %0.1f*(font_size+20)+640+font_size/2+5 }}" text-anchor="middle">%s</text>"""
+
+for i in range(64):
+    offset_x = i%8 - 3.5
+    offset_y = i//8 - 3.5
+
+    print(s % (-1*offset_x, -1*offset_y, b[i]))
