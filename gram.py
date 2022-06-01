@@ -19,10 +19,12 @@ def get_hexagram_template_fields():
     }
 
 def get_trigram_template_fields():
-    radius = 400
+    start_x = 640
+    start_y = 400
 
     return {
-        "radius": radius
+        "start_x": start_x,
+        "start_y": start_y
     }
 
 @app.route("/<gram>")
