@@ -19,8 +19,8 @@ def get_hexagram_template_fields():
     }
 
 def get_trigram_template_fields():
-    start_x = 640
-    start_y = 400
+    start_x = 640-7.5
+    start_y = 300
 
     return {
         "start_x": start_x,
