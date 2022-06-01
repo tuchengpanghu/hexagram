@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1280">
   <style>
     text {
-      font-family: &quot;Hiragino Sans &quot;;
+      font-family: Hiragino Sans CNS;
       font-size: 15px;
       font-weight: bold;
       text-anchor: end;
