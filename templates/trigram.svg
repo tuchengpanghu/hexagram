@@ -11,7 +11,7 @@
   </style>
   <circle cx="640" cy="640" r="3" style="fill: black;"/>
 
-  <text x="600" y="500" transform="rotate(0,640,640)">乾坤䷀</text>
-  <text x="600" y="500" transform="rotate(180,640,640)">乾坤䷀</text>
+  <text x="600" y="{{ radius }}" transform="rotate(0,640,640)">乾坤䷀</text>
+  <text x="600" y="{{ radius }}" transform="rotate(180,640,640)">乾坤䷀</text>
 
 </svg>
