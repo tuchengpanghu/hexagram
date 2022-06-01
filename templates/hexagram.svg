@@ -34,23 +34,23 @@
 
   </style>
   <defs>
-    <pattern id="pattern_1" patternUnits="userSpaceOnUse" x="{{ padding }}" width="{{ base_width*2 }}" height="1">
-      <line x1="0" y1="0" x2="0" y2="1" stroke-width="{{ base_width*2 }}"/>
+    <pattern id="pattern_1" patternUnits="userSpaceOnUse" x="{{ padding }}" width="{{ base_width*2 }}" height="{{ base_height }}">
+      <line x1="{{ base_width/2 }}" y1="0" x2="{{ base_width/2 }}" y2="{{ base_height }}" stroke-width="{{ base_width }}"/>
     </pattern>
-    <pattern id="pattern_2" patternUnits="userSpaceOnUse" x="{{ padding }}" width="{{ base_width*4 }}" height="30">
-      <line x1="0" y1="0" x2="0" y2="30" stroke-width="{{ base_width*4 }}"/>
+    <pattern id="pattern_2" patternUnits="userSpaceOnUse" x="{{ padding }}" width="{{ base_width*4 }}" height="{{ base_height }}">
+      <line x1="{{ base_width }}" y1="0" x2="{{ base_width }}" y2="{{ base_height }}" stroke-width="{{ base_width*2 }}"/>
     </pattern>
-    <pattern id="pattern_3" patternUnits="userSpaceOnUse" x="{{ padding }}" width="{{ base_width*8 }}" height="30">
-      <line x1="0" y1="0" x2="0" y2="30" stroke-width="{{ base_width*8 }}"/>
+    <pattern id="pattern_3" patternUnits="userSpaceOnUse" x="{{ padding }}" width="{{ base_width*8 }}" height="{{ base_height }}">
+      <line x1="{{ base_width*2 }}" y1="0" x2="{{ base_width*2 }}" y2="{{ base_height }}" stroke-width="{{ base_width*4 }}"/>
     </pattern>
-    <pattern id="pattern_4" patternUnits="userSpaceOnUse" x="{{ padding }}" width="{{ base_width*16 }}" height="30">
-      <line x1="0" y1="0" x2="0" y2="30" stroke-width="{{ base_width*16 }}"/>
+    <pattern id="pattern_4" patternUnits="userSpaceOnUse" x="{{ padding }}" width="{{ base_width*16 }}" height="{{ base_height }}">
+      <line x1="{{ base_width*4 }}" y1="0" x2="{{ base_width*4 }}" y2="{{ base_height }}" stroke-width="{{ base_width*8 }}"/>
     </pattern>
-    <pattern id="pattern_5" patternUnits="userSpaceOnUse" x="{{ padding }}" width="{{ base_width*32 }}" height="30">
-      <line x1="0" y1="0" x2="0" y2="30" stroke-width="{{ base_width*32 }}"/>
+    <pattern id="pattern_5" patternUnits="userSpaceOnUse" x="{{ padding }}" width="{{ base_width*32 }}" height="{{ base_height }}">
+      <line x1="{{ base_width*8 }}" y1="0" x2="{{ base_width*8 }}" y2="{{ base_height }}" stroke-width="{{ base_width*16 }}"/>
     </pattern>
-    <pattern id="pattern_6" patternUnits="userSpaceOnUse" x="{{ padding }}" width="{{ base_width*64 }}" height="30">
-      <line x1="0" y1="0" x2="0" y2="30" stroke-width="{{ base_width*64 }}"/>
+    <pattern id="pattern_6" patternUnits="userSpaceOnUse" x="{{ padding }}" width="{{ base_width*64 }}" height="{{ base_height }}">
+      <line x1="{{ base_width*16 }}" y1="0" x2="{{ base_width*16 }}" y2="{{ base_height }}" stroke-width="{{ base_width*32 }}"/>
     </pattern>
   </defs>
 
