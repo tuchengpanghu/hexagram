@@ -39,7 +39,7 @@ function bar(num, text){
                     .attr({'stroke-dasharray': base_width*64/num})
                     .move(0, base_height/2)
 
-    var text = draw.plain(text).font('size', 0).move(base_width*32,base_height).attr(_text_attr)
+    var text = draw.plain(text).font('size', 0).move(base_width*32,base_height/2).attr(_text_attr)
 
     var group = draw.group()
     group.add(rect).add(line).add(text)
