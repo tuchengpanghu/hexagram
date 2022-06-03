@@ -11,7 +11,6 @@ registerWindow(window, document)
 var base_height = 50
 var base_width = 22
 var padding = base_width
-var gap = 2
 var total_width = base_width * 64 + padding * 3
 var total_height = base_height * 10
 
@@ -58,6 +57,8 @@ function bar(num, text_arr){
 
     return group
 }
+
+var gap = 2
 
 bar(64, []).move(padding,(base_height+gap)*2)
 bar(32, []).move(padding,(base_height+gap)*3)
