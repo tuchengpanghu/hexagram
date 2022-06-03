@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.1.2",
+    "svgdom": "^0.1.10"
+  }
+}
