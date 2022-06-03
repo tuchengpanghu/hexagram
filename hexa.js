@@ -11,6 +11,7 @@ registerWindow(window, document)
 var base_height = 50
 var base_width = 22
 var padding = base_width
+var gap = 2
 var total_width = base_width * 64 + padding * 3
 var total_height = base_height * 10
 
@@ -58,13 +59,13 @@ function bar(num, text_arr){
     return group
 }
 
-bar(64, []).move(padding,(base_height+2)*2)
-bar(32, []).move(padding,(base_height+2)*3)
-bar(16, []).move(padding,(base_height+2)*4)
-bar(8, ["乾","兌","離","震","巽","坎","艮","坤"]).move(padding,(base_height+2)*5)
-bar(4, ["太陽","少陰","少陽","太陰"]).move(padding,(base_height+2)*6)
-bar(2, ["陽","陰"]).move(padding,(base_height+2)*7)
-bar(1, ["太 極"]).move(padding,(base_height+2)*8)
+bar(64, []).move(padding,(base_height+gap)*2)
+bar(32, []).move(padding,(base_height+gap)*3)
+bar(16, []).move(padding,(base_height+gap)*4)
+bar(8, ["乾","兌","離","震","巽","坎","艮","坤"]).move(padding,(base_height+gap)*5)
+bar(4, ["太陽","少陰","少陽","太陰"]).move(padding,(base_height+gap)*6)
+bar(2, ["陽","陰"]).move(padding,(base_height+gap)*7)
+bar(1, ["太 極"]).move(padding,(base_height+gap)*8)
 
 
 console.log(draw.svg())
