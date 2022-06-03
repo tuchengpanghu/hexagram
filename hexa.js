@@ -44,6 +44,7 @@ function bar(num, text_arr){
     group.add(rect).add(line)
 
     for (let i = len; i > 0; i--) {
+        // writing from right to left
         block = base_width*64/len
         position = block*i - block/2
         var text = draw.plain(text_arr[len-i]).font('size', 0).move(position, base_height/2).attr(_text_attr)
