@@ -16,7 +16,8 @@ var total_height = base_height * 10
 
 // create canvas
 var draw = SVG(document.documentElement)
-// draw pink square
+
+// TODO: center canvas in the screen
 draw.size(total_width, total_height)
 
 function bar(num){
