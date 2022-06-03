@@ -47,6 +47,7 @@ function bar(num, text_arr){
         // writing from right to left
         block = base_width*64/len
         position = block*i - block/2
+        // set initial size to 0, to avoid move scale
         var text = draw.plain(text_arr[len-i]).font('size', 0).move(position, base_height/2).attr(_text_attr)
         if ((len-i) % 2 == 1){
             text.fill("white")
