@@ -1,5 +1,6 @@
-// returns a window with a document and an svg root node
+#!/usr/bin/env node
 
+// returns a window with a document and an svg root node
 const { createSVGWindow } = require('svgdom')
 const window = createSVGWindow()
 const document = window.document
