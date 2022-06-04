@@ -22,7 +22,7 @@ var font = {
 
 var _title_attr = {
     'font-family': font["sans"],
-    'font-size': 45,
+    'font-size': base_height,
     'font-weight': 'bold',
     'text-anchor': 'middle',
     'dominant-baseline': 'central',
@@ -32,7 +32,7 @@ var _title_attr = {
 
 var _text_attr = {
     'font-family': font["sans"],
-    'font-size': 35,
+    'font-size': Math.round(0.72*base_height),
     'font-weight': 'bold',
     'text-anchor': 'middle',
     'dominant-baseline': 'central',
@@ -42,7 +42,7 @@ var _text_attr = {
 
 var _other_attr = {
     'font-family': "Hiragino Sans CNS",
-    'font-size': 15,
+    'font-size': Math.round(0.81*base_width),
     'writing-mode': 'vertical-lr',
     'text-anchor': 'middle'
 }
