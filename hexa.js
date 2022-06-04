@@ -15,8 +15,13 @@ var padding = base_width
 var total_width = base_width * 64 + padding * 3
 var total_height = base_height * 10
 
+var font = {
+    'sans': "Hiragino Sans CNS",
+    'serifs': "Hiragino Mincho ProN"
+}
+
 var _title_attr = {
-    'font-family': "Hiragino Sans CNS",
+    'font-family': font["sans"],
     'font-size': 45,
     'font-weight': 'bold',
     'text-anchor': 'middle',
@@ -26,7 +31,7 @@ var _title_attr = {
 }
 
 var _text_attr = {
-    'font-family': "Hiragino Sans CNS",
+    'font-family': font["sans"],
     'font-size': 35,
     'font-weight': 'bold',
     'text-anchor': 'middle',
@@ -36,11 +41,10 @@ var _text_attr = {
 }
 
 var _other_attr = {
-    'font-family': "Hiragino Sans GB",
+    'font-family': "Hiragino Sans CNS",
     'font-size': 15,
     'writing-mode': 'vertical-lr',
-    'text-anchor': 'middle',
-    // text-orientation: mixe,
+    'text-anchor': 'middle'
 }
 
 var _title = "伏羲六十四卦次序"
@@ -98,8 +102,16 @@ function bar(num, item){
         // writing from right to left
         block = base_width*64/len
         position = block*i - block/2
+
         // set initial size to 0, to avoid moving drift
-        var text = draw.plain(text_arr[len-i]).font('size', 0).move(position, base_height/2).attr(_text_attr)
+        var text = draw.plain(text_arr[len-i]).font('size', 0)
+
+        if (len == 64) {
+            text.move(position, base_height/2).attr(_other_attr)
+        } else {
+            text.move(position, base_height/2).attr(_text_attr)
+        }
+
         if ((len-i) % 2 == 1){
             text.fill("white")
         }
@@ -116,7 +128,7 @@ function bar(num, item){
 
 var gap = 4
 
-title(_title).move(padding,gap*2)
+title(_title).move(padding,base_height/2)
 
 bar(64, "六十四").move(padding,(base_height+gap)*2)
 bar(32, "三十二").move(padding,(base_height+gap)*3)
