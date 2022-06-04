@@ -10,7 +10,7 @@ const { SVG, registerWindow } = require('@svgdotjs/svg.js')
 registerWindow(window, document)
 
 var base_height = 50
-var base_width = 22
+var base_width = 18
 var padding = base_width
 var total_width = base_width * 64 + padding * 3
 var total_height = base_height * 10
@@ -23,6 +23,23 @@ var _text_attr = {
     'dominant-baseline': 'central',
     'direction': 'rtl',
     'unicode-bidi': 'bidi-override'
+}
+
+var _title = "伏羲六十四卦次序"
+var _data = {
+    "太極": ["太 極"],
+    "兩儀": ["陽", "陰"],
+    "四象": ["太陽", "少陰", "少陽", "太陰"],
+    "八卦": ["乾", "兌", "離", "震", "巽", "坎", "艮", "坤"],
+    "六十四卦": ['乾', '夬', '大有', '大壯', '小畜', '需', '大畜', '泰',
+                '履', '兌', '睽', '歸妹', '中孚', '節', '損', '臨',
+                '同人', '革', '離', '豐', '家人', '既濟', '賁', '明夷',
+                '無妄', '隨', '噬嗑', '震', '益', '屯', '頤', '複',
+                '姤', '大過', '鼎', '恆', '巽', '井', '蠱', '升',
+                '訟', '困', '未濟', '解', '渙', '坎', '蒙', '師',
+                '遁', '咸', '旅', '小過', '漸', '蹇', '艮', '謙',
+                '否', '萃', '晉', '豫', '觀', '比', '剝', '坤'
+               ]
 }
 
 // create canvas
@@ -59,7 +76,7 @@ function bar(num, text_arr){
     return group
 }
 
-var gap = 2
+var gap = 4
 
 bar(64, []).move(padding,(base_height+gap)*2)
 bar(32, []).move(padding,(base_height+gap)*3)
