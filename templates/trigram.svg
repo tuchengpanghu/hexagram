@@ -5,12 +5,12 @@
       font-size: {{ font_size }}px;
       font-weight: bold;
       text-anchor: end;
-      dominant-baseline="central";
+      dominant-baseline: "central";
       writing-mode: vertical-lr;
     }
 
     .text2 {
-      font-family: Hiragino Sans GB;
+      font-family: DejaVu Sans;
       font-size: 30px;
       font-weight: bold;
       text-anchor: end;
