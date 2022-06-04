@@ -119,7 +119,9 @@ function bar(num, item) {
     }
 
     if (item != "太極") {
-        var text = draw.plain(item).font('size', 0).move(base_width * 65, base_height / 2).attr(_other_attr)
+        var text = draw.plain(item).font('size', 0)
+            .move(base_width * 65, base_height / 2)
+            .attr(_other_attr)
         group.add(text)
     }
 
