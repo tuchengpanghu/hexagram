@@ -56,14 +56,14 @@ var _data = {
     "十六": [],
     "三十二": [],
     "六十四": ['乾', '夬', '大有', '大壯', '小畜', '需', '大畜', '泰',
-                '履', '兌', '睽', '歸妹', '中孚', '節', '損', '臨',
-                '同人', '革', '離', '豐', '家人', '既濟', '賁', '明夷',
-                '無妄', '隨', '噬嗑', '震', '益', '屯', '頤', '複',
-                '姤', '大過', '鼎', '恆', '巽', '井', '蠱', '升',
-                '訟', '困', '未濟', '解', '渙', '坎', '蒙', '師',
-                '遁', '咸', '旅', '小過', '漸', '蹇', '艮', '謙',
-                '否', '萃', '晉', '豫', '觀', '比', '剝', '坤'
-               ]
+        '履', '兌', '睽', '歸妹', '中孚', '節', '損', '臨',
+        '同人', '革', '離', '豐', '家人', '既濟', '賁', '明夷',
+        '無妄', '隨', '噬嗑', '震', '益', '屯', '頤', '複',
+        '姤', '大過', '鼎', '恆', '巽', '井', '蠱', '升',
+        '訟', '困', '未濟', '解', '渙', '坎', '蒙', '師',
+        '遁', '咸', '旅', '小過', '漸', '蹇', '艮', '謙',
+        '否', '萃', '晉', '豫', '觀', '比', '剝', '坤'
+    ]
 }
 
 // create canvas
@@ -72,11 +72,11 @@ var draw = SVG(document.documentElement)
 // TODO: center canvas in the screen
 draw.size(total_width, total_height)
 
-function title(t){
-    var position = base_width*32
+function title(t) {
+    var position = base_width * 32
     var rect = draw.rect(base_width * 64, base_height)
-                   .attr({'stroke-width': 1, 'stroke': "none", 'fill': "none"})
-    var t = draw.plain(t.split('').join(' ')).font('size', 0).move(position, base_height/2).attr(_title_attr)
+        .attr({ 'stroke-width': 1, 'stroke': "none", 'fill': "none" })
+    var t = draw.plain(t.split('').join(' ')).font('size', 0).move(position, base_height / 2).attr(_title_attr)
 
     var group = draw.group()
     group.add(rect).add(t)
@@ -84,42 +84,42 @@ function title(t){
     return group
 }
 
-function bar(num, item){
+function bar(num, item) {
     text_arr = _data[item]
     len = text_arr.length
     var rect = draw.rect(base_width * 64, base_height)
-                    .attr({'stroke-width': 1, 'stroke': "black", 'fill': "black"})
+        .attr({ 'stroke-width': 1, 'stroke': "black", 'fill': "black" })
 
-    var line = draw.line(base_width*64, 0, 0, 0)
-                    .attr({'stroke-width': base_height, 'stroke': "white"})
-                    .attr({'stroke-dasharray': base_width*64/num})
-                    .move(0, base_height/2)
+    var line = draw.line(base_width * 64, 0, 0, 0)
+        .attr({ 'stroke-width': base_height, 'stroke': "white" })
+        .attr({ 'stroke-dasharray': base_width * 64 / num })
+        .move(0, base_height / 2)
 
     var group = draw.group()
     group.add(rect).add(line)
 
     for (let i = len; i > 0; i--) {
         // writing from right to left
-        block = base_width*64/len
-        position = block*i - block/2
+        block = base_width * 64 / len
+        position = block * i - block / 2
 
         // set initial size to 0, to avoid moving drift
-        var text = draw.plain(text_arr[len-i]).font('size', 0)
+        var text = draw.plain(text_arr[len - i]).font('size', 0)
 
         if (len == 64) {
-            text.move(position, base_height/2).attr(_other_attr)
+            text.move(position, base_height / 2).attr(_other_attr)
         } else {
-            text.move(position, base_height/2).attr(_text_attr)
+            text.move(position, base_height / 2).attr(_text_attr)
         }
 
-        if ((len-i) % 2 == 1){
+        if ((len - i) % 2 == 1) {
             text.fill("white")
         }
         group.add(text)
     }
 
-    if (item != "太極"){
-        var text = draw.plain(item).font('size', 0).move(base_width*65, base_height/2).attr(_other_attr)
+    if (item != "太極") {
+        var text = draw.plain(item).font('size', 0).move(base_width * 65, base_height / 2).attr(_other_attr)
         group.add(text)
     }
 
@@ -128,14 +128,14 @@ function bar(num, item){
 
 var gap = 4
 
-title(_title).move(padding,base_height/2)
+title(_title).move(padding, base_height / 2)
 
-bar(64, "六十四").move(padding,(base_height+gap)*2)
-bar(32, "三十二").move(padding,(base_height+gap)*3)
-bar(16, "十六").move(padding,(base_height+gap)*4)
-bar(8, "八卦").move(padding,(base_height+gap)*5)
-bar(4, "四象").move(padding,(base_height+gap)*6)
-bar(2, "兩儀").move(padding,(base_height+gap)*7)
-bar(1, "太極").move(padding,(base_height+gap)*8)
+bar(64, "六十四").move(padding, (base_height + gap) * 2)
+bar(32, "三十二").move(padding, (base_height + gap) * 3)
+bar(16, "十六").move(padding, (base_height + gap) * 4)
+bar(8, "八卦").move(padding, (base_height + gap) * 5)
+bar(4, "四象").move(padding, (base_height + gap) * 6)
+bar(2, "兩儀").move(padding, (base_height + gap) * 7)
+bar(1, "太極").move(padding, (base_height + gap) * 8)
 
 console.log(draw.svg())
