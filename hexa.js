@@ -80,9 +80,9 @@ function title(t) {
     var rect = draw.rect(base_width * 64, base_height)
         .attr({ 'stroke-width': 1, 'stroke': "none", 'fill': "none" })
     var t = draw.plain(t.split('').join(' '))
-                .font('size', 0)
-                .move(position, base_height / 2)
-                .addClass('title')
+        .font('size', 0)
+        .move(position, base_height / 2)
+        .addClass('title')
 
     var group = draw.group()
     group.add(rect).add(t)
