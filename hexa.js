@@ -20,34 +20,8 @@ var font = {
     'serifs': "Hiragino Mincho ProN"
 }
 
-var _title_attr = {
-    'font-family': font["sans"],
-    'font-size': base_height,
-    'font-weight': 'bold',
-    'text-anchor': 'middle',
-    'dominant-baseline': 'central',
-    'direction': 'rtl',
-    'unicode-bidi': 'bidi-override'
-}
-
-var _text_attr = {
-    'font-family': font["sans"],
-    'font-size': Math.round(0.72*base_height),
-    'font-weight': 'bold',
-    'text-anchor': 'middle',
-    'dominant-baseline': 'central',
-    'direction': 'rtl',
-    'unicode-bidi': 'bidi-override'
-}
-
-var _other_attr = {
-    'font-family': "Hiragino Sans CNS",
-    'font-size': Math.round(0.81*base_width),
-    'writing-mode': 'vertical-lr',
-    'text-anchor': 'middle'
-}
-
 var _title = "伏羲六十四卦次序"
+
 var _data = {
     "太極": ["太 極"],
     "兩儀": ["陽", "陰"],
@@ -72,11 +46,43 @@ var draw = SVG(document.documentElement)
 // TODO: center canvas in the screen
 draw.size(total_width, total_height)
 
+var style = draw.style()
+
+style.rule('.title', {
+    'font-family': font["sans"],
+    'font-size': `${base_height}px`,
+    'font-weight': 'bold',
+    'text-anchor': 'middle',
+    'dominant-baseline': 'central',
+    'direction': 'rtl',
+    'unicode-bidi': 'bidi-override'
+})
+
+style.rule('.text', {
+    'font-family': font["sans"],
+    'font-size': `${Math.round(0.72 * base_height)}px`,
+    'font-weight': 'bold',
+    'text-anchor': 'middle',
+    'dominant-baseline': 'central',
+    'direction': 'rtl',
+    'unicode-bidi': 'bidi-override'
+})
+
+style.rule('.other', {
+    'font-family': "Hiragino Sans CNS",
+    'font-size': `${Math.round(0.81 * base_width)}px`,
+    'writing-mode': 'vertical-lr',
+    'text-anchor': 'middle'
+})
+
 function title(t) {
     var position = base_width * 32
     var rect = draw.rect(base_width * 64, base_height)
         .attr({ 'stroke-width': 1, 'stroke': "none", 'fill': "none" })
-    var t = draw.plain(t.split('').join(' ')).font('size', 0).move(position, base_height / 2).attr(_title_attr)
+    var t = draw.plain(t.split('').join(' '))
+                .font('size', 0)
+                .move(position, base_height / 2)
+                .addClass('title')
 
     var group = draw.group()
     group.add(rect).add(t)
@@ -107,9 +113,9 @@ function bar(num, item) {
         var text = draw.plain(text_arr[len - i]).font('size', 0)
 
         if (len == 64) {
-            text.move(position, base_height / 2).attr(_other_attr)
+            text.move(position, base_height / 2).addClass('other')
         } else {
-            text.move(position, base_height / 2).attr(_text_attr)
+            text.move(position, base_height / 2).addClass('text')
         }
 
         if ((len - i) % 2 == 1) {
@@ -121,7 +127,7 @@ function bar(num, item) {
     if (item != "太極") {
         var text = draw.plain(item).font('size', 0)
             .move(base_width * 65, base_height / 2)
-            .attr(_other_attr)
+            .addClass('other')
         group.add(text)
     }
 
