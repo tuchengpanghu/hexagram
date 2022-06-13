@@ -68,7 +68,7 @@ style.rule('.text', {
     'unicode-bidi': 'bidi-override'
 })
 
-style.rule('.other', {
+style.rule('.small_text', {
     'font-family': "Hiragino Sans CNS",
     'font-size': `${Math.round(0.81 * base_width)}px`,
     'writing-mode': 'vertical-lr',
@@ -113,7 +113,7 @@ function bar(num, item) {
         var text = draw.plain(text_arr[len - i]).font('size', 0)
 
         if (len == 64) {
-            text.move(position, base_height / 2).addClass('other')
+            text.move(position, base_height / 2).addClass('small_text')
         } else {
             text.move(position, base_height / 2).addClass('text')
         }
@@ -127,7 +127,7 @@ function bar(num, item) {
     if (item != "太極") {
         var text = draw.plain(item).font('size', 0)
             .move(base_width * 65, base_height / 2)
-            .addClass('other')
+            .addClass('small_text')
         group.add(text)
     }
 
