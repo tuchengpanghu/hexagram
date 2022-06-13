@@ -50,7 +50,7 @@ def get_svg(gram):
 
 @app.route("/local/<filename>")
 def download(filename):
-    return send_from_directory(directory="", filename=filename, mimetype="image/svg+xml")
+    return send_from_directory(directory="./", path=filename, mimetype="image/svg+xml")
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))
