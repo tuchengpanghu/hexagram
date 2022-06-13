@@ -124,8 +124,10 @@ function bar(num, item) {
         group.add(text)
     }
 
+    // add text in the right most column
     if (item != "太極") {
-        var text = draw.plain(item).font('size', 0)
+        var text = draw.plain(item)
+            .font('size', 0)
             .move(base_width * 65, base_height / 2)
             .addClass('small_text')
         group.add(text)
