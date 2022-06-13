@@ -1,6 +1,6 @@
 import os
 
-from flask import Flask, make_response, render_template
+from flask import Flask, make_response, render_template, send_from_directory
 
 app = Flask(__name__)
 
@@ -47,6 +47,10 @@ def get_svg(gram):
     response = make_response(t)
     response.headers["Content-Type"] = "image/svg+xml"
     return response
+
+@app.route("/local/<filename>")
+def download(filename):
+    return send_from_directory(directory="", filename=filename, mimetype="image/svg+xml")
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))
