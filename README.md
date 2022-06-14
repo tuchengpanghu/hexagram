@@ -7,7 +7,7 @@
 python3 gram.py
 
 # generate svg file
-node hexa.js > svg/hexa.svg
+node src/hexa.js > svg/hexa.svg
 ```
 
 ## Example
